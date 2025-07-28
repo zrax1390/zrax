@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>zrax | آموزش و ویدیوهای رایگان</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: "Vazirmatn", sans-serif;
+      background: #fdfdfd;
+      direction: rtl;
+    }
+    header {
+      background: #222;
+      color: white;
+      padding: 15px 30px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+    .logo {
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 15px;
+      padding: 0;
+      margin: 0;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: 500;
+    }
+    .intro {
+      text-align: center;
+      padding: 40px 20px 10px;
+    }
+    .intro h1 {
+      font-size: 2rem;
+      color: #333;
+    }
+    .intro p {
+      font-size: 1rem;
+      color: #666;
+    }
+    .video-section {
+      padding: 20px;
+    }
+    .video-section h2 {
+      color: #444;
+      margin-bottom: 15px;
+      text-align: center;
+    }
+    .video-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 20px;
+      justify-content: center;
+    }
+    iframe {
+      width: 100%;
+      aspect-ratio: 16 / 9;
+      border-radius: 8px;
+      border: none;
+    }
+    footer {
+      background: #333;
+      color: #eee;
+      padding: 20px;
+      text-align: center;
+    }
+    footer h3 {
+      margin-top: 0;
+    }
+    @media (max-width: 600px) {
+      nav ul {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        margin-top: 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">zrax</div>
+    <nav>
+      <ul>
+        <li><a href="#">صفحه اصلی</a></li>
+        <li><a href="#youtube">ویدیوهای یوتیوب</a></li>
+        <li><a href="#aparat">ویدیوهای آپارات</a></li>
+        <li><a href="#contact">ارتباط با ما</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="intro">
+      <h1>به zrax خوش آمدید</h1>
+      <p>آموزش‌های ویدیویی رایگان در زمینه گیم و تکنولوژی</p>
+    </section>
+
+    <section id="youtube" class="video-section">
+      <h2>ویدیوهای یوتیوب</h2>
+      <div class="video-grid">
+        <iframe src="https://www.youtube.com/embed/VIDEO_ID1" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/VIDEO_ID2" allowfullscreen></iframe>
+      </div>
+    </section>
+
+    <section id="aparat" class="video-section">
+      <h2>ویدیوهای آپارات</h2>
+      <div class="video-grid">
+        <iframe src="https://www.aparat.com/video/video/embed/videohash/abcde/vt/frame" allowfullscreen></iframe>
+        <iframe src="https://www.aparat.com/video/video/embed/videohash/xyz12/vt/frame" allowfullscreen></iframe>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <section id="contact">
+      <h3>ارتباط با ما</h3>
+      <p>برای همکاری یا سوالات بیشتر با ایمیل zrax.channel@gmail.com تماس بگیرید.</p>
+    </section>
+    <p>© ۲۰۲۵ zrax. تمامی حقوق محفوظ است.</p>
+  </footer>
+</body>
+</html>
